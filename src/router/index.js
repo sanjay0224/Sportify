@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/HomePage.vue';
 import AboutPage from '@/views/AboutPage.vue';
+import ContactPage from '@/views/ContactPage.vue';
 
 
 const routes = [
@@ -20,6 +21,11 @@ const routes = [
     path: '/home',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/contact',              // ✅ New contact route
+    name: 'Contact',
+    component: ContactPage
   }
 ];
 

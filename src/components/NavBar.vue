@@ -6,7 +6,7 @@
     <ul class="nav-list">
       <li><a href="/home" class="active">Home</a></li>
       <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><router-link to="/contact">Contact</router-link></li>
     </ul>
   </nav>
 </template>
