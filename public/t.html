@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sportify</title>
+  <!--bootsrap cdn-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" />
   <style>
     * {
@@ -229,11 +230,11 @@
 
         function animate() {
           time += 0.01;
-          if (rotationAxis.includes('x')) obj.rotation.x += speed * 0.5;
+          if (rotationAxis.includes('x')) obj.rotation.x += speed * 2;
           if (rotationAxis.includes('y')) obj.rotation.y += speed;
-          if (rotationAxis.includes('z')) obj.rotation.z += speed * 0.3;
+          if (rotationAxis.includes('z')) obj.rotation.z += speed * 2;
           if (pulse) {
-            obj.scale.copy(originalScale).multiplyScalar(1 + Math.sin(time) * 0.1);
+            obj.scale.copy(originalScale).multiplyScalar(1 + Math.sin(time) * 0.10);
           }
           requestAnimationFrame(animate);
         }

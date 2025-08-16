@@ -5,9 +5,11 @@
   
       <div class="contact-info">
         <p><strong>🏢 Address:</strong> Sportify HQ, 5th Floor, Victory Tower, Coimbatore, Tamil Nadu, 641001</p>
-        <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+        <p><strong>📞 Phone:</strong> +91 85319 90907</p>
         <p><strong>📧 Email:</strong> support@sportifyhub.com</p>
         <p><strong>⏰ Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>
+        <p>© 2025 Sportify. Owned and managed by <span style="color:#f1c40f; font-weight:bold">SanjayKumar.</span></p>
+
       </div>
   
       <div class="contact-form">
@@ -30,11 +32,19 @@
   
   <style scoped>
   .contact-container {
-    background-color: #111;
+    background-color: #0a0000;
     color: #fff;
     padding: 40px 20px;
     max-width: 900px;
     margin: auto;
+    justify-content: center;
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    width: 45%;
+    justify-content: center;
   }
   
   .contact-info p {
@@ -54,6 +64,7 @@
     flex-direction: column;
     gap: 15px;
   }
+  
   
   .contact-form input,
   .contact-form textarea {
